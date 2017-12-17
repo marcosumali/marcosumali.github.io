@@ -1,0 +1,290 @@
+/* ----------------------------INI CSS INDEX.HTML---------------------------- */
+
+.title {
+    font-family: "Roboto Condensed";
+    text-align: center;
+    
+}
+
+.name {
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+
+.img {
+    height: 225px;
+    width: 300px;
+    border: 3px dashed black;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index_header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+footer {
+    font-family: "Roboto Condensed";
+    background-color: black;
+    color: white;
+    height: 130px;
+}
+
+
+#text1 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 10;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+a {
+    color:white;   
+}
+
+a:link {
+    text-decoration:none;
+}
+
+#text1:hover {
+    color: black;
+    opacity: 0.3;
+}
+
+/* ----------------------------INI CSS ABOUT_ME.HTML---------------------------- */
+
+.about_title {
+    font-style: bold;
+    font-size: 50px;
+}
+
+#about_body {
+    background-color: teal;
+    
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 0.21fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    grid-template-areas:    "img_about profile_1"
+                            "cv cv"
+                            "profile_2 profile_4"
+                            "profile_3 profile_3";
+}
+
+.about_intro {
+    font-family: "Roboto Condensed";
+}
+
+.img_about {
+    height: 300px;
+    width: max;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.profile_1, 
+.profile_2, 
+.profile_3, 
+.profile_4, 
+.cv {
+    font-family: "Roboto Condensed";
+    line-height: 10px;
+}
+
+.cv {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-area: cv;
+}
+
+
+.profile_1 {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-area: profile_1;
+}
+
+.profile_2 {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-area: profile_2;
+}
+
+.profile_3 {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-area: profile_3;
+
+}
+.profile_4 {
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-area: profile_4;
+}
+
+#hello {
+    font-size: 40px;
+    line-height: 1px;
+}
+
+#my_name {
+    font-size: 20px;
+    line-height: 1px;
+}
+
+#name {
+    font-size: 20px;
+    line-height: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#other1, #other2,{
+    line-height: 2px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#other3 {
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+#other4 {
+    line-height: 1px;
+    font-style: italic;
+    
+}
+
+#text2 {
+    line-height: 20px;
+}
+
+.image_ending {
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------INI CSS JOBS.HTML---------------------------- */
+
+#job_body {
+    background-color: white;
+    color: teal;
+    
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.21fr 0.21fr 1fr;
+    grid-gap: 10px 10px;
+    grid-template-areas:    "job_title job_title"
+                            "job_image job_1"
+                            "job_image job_2"
+}
+
+.job_title {
+    font-family: "Roboto Condensed";
+}
+
+.image_pev {
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.job_1, 
+.job_2 {
+    font-family: "Roboto Condensed";
+    line-height: 10px;
+}
+
+.job_1 {
+    border: 3px solid teal;
+    border-radius: 10px;
+    grid-area: job_1;
+}
+
+.job_2 {
+    border: 3px solid teal;
+    border-radius: 10px;
+    grid-area: job_2;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.job_title {
+    border: 3px solid teal;
+    border-radius: 10px;
+    grid-area: job_title;
+}
+
+.job_image {
+    border: 3px solid teal;
+    border-radius: 10px;
+    grid-area: job_image;
+}
+
+.submit {
+    border: 3px solid teal;
+    border-radius: 10px;
+}
+
+/* ----------------------------INI CSS THANKS.HTML---------------------------- */
+
+.thanks {
+    background-color: white;
+    color: teal;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 20px;
+    border: 3px solid teal;
+    border-radius: 10px;
+}
+
+#text2 a {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 10;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    color: teal;
+}
+
+#text2:hover {
+    color: teal;
+    opacity: 0.3;
+}
