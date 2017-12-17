@@ -257,3 +257,34 @@ a:link {
     border-radius: 10px;
 }
 
+/* ----------------------------INI CSS THANKS.HTML---------------------------- */
+
+.thanks {
+    background-color: white;
+    color: teal;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 20px;
+    border: 3px solid teal;
+    border-radius: 10px;
+}
+
+#text2 a {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Roboto Condensed";
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 2px;
+    z-index: 10;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    color: teal;
+}
+
+#text2:hover {
+    color: teal;
+    opacity: 0.3;
+}
